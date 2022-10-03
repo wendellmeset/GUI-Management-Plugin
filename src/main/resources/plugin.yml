@@ -1,0 +1,14 @@
+name: "GUIManagementPlugin"
+version: "1.1"
+main: "vb.$guimanagementplugin.PluginMain"
+api-version: 1.13
+authors: [IAmAppley, Wendellmeset]
+description: "Adds Essential GUIs for managing YOUR Minecraft server!!!!"
+commands:
+  gui:
+    aliases: [accessgui]
+    description: "Allows you to open GUIs! (Usage: /gui gui_name)"
+    permission: "guimanagement.gui"
+    permission-message: "&cNo Permission!!!!"
+    usage: "/gui gui_name"
+permissions:
